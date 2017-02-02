@@ -40,6 +40,8 @@ function fetch_array($result){
     return mysqli_fetch_array($result);
 }
 
+
+//===========================================FRONT END FUNCTIONS===================================//
 //get products
 
 function get_products(){
@@ -55,7 +57,7 @@ function get_products(){
                <a href="item.php?id={$row['product_id']}"><img src="{$row['product_image']}" alt=""></a>
                 <div class="caption">
                     <h5 class="pull-right">&#36;{$row['product_price']}</h5>
-                    <h5><a href="product.html">{$row['product_title']}</a>
+                    <h5><a href="item.php?id={$row['product_id']}">{$row['product_title']}</a>
                     </h5>
                     <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
                     <a class="btn btn-primary" target="_blank" href="item.php?id={$row['product_id']}">Add to cart</a>
@@ -86,7 +88,7 @@ DELIMETER;
 }
 
 
-
+//===========================================BACK END FUNCTIONS===================================//
 
 
 
