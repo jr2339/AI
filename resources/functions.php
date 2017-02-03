@@ -21,7 +21,7 @@ function query($sql){
 function confirm($result){
     global $connection;
     if(!$result){
-        die("QUERY FAILED".mysqli_erroe($connection));
+        die("QUERY FAILED".mysqli_error($connection));
     }
 
 }
@@ -86,6 +86,45 @@ DELIMETER;
     echo $categories;
     }
 }
+
+
+
+
+
+function get_product_in_cat_page(){
+
+    $query = query("SELECT * FROM products WHERE product_category_id =" . escape_string($_GET['id']) . " ");
+    //check our query works
+    confirm($query);
+
+    while($row = fetch_array($query)){
+        $product = <<<DELIMETER
+        <div class="col-md-3 col-sm-6 hero-feature">
+            <div class="thumbnail">
+                <img src="{$row['product_image']}" alt="">
+                <div class="caption">
+                    <h4>{$row['product_title']}</h4>
+                    <p>{$row['short_desc']}</p>
+                    <p>
+                        <a href="#" class="btn btn-primary">Buy Now!</a> <a href="item.php?id={$row['product_id']}" class="btn btn-default">More Info</a>
+                    </p>
+                </div>
+            </div>
+         </div>
+
+DELIMETER;
+        echo $product;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
 //===========================================BACK END FUNCTIONS===================================//
