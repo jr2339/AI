@@ -1,8 +1,10 @@
-<?php ob_start();
+<?php
+
+//ob_start();
 
 
 session_start();
-session_destroy();
+//session_destroy();
 //Define server
 //if this DS is already defined we put null; if it is not we define it
 //DIRECTORY_SEPARATOR is a constant at here
