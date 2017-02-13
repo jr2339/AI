@@ -8,21 +8,10 @@
 
 
 <?php
-
-    $_SESSION['product_1'] = 1
-
-
-
-
-
-
-
-
-
-
-
+    if(isset($_SEESION['product_1'])){
+        echo $_SEESION['product_1'];
+    }
 ?>
-
 
 
 
@@ -44,7 +33,7 @@
 <!-- /.row --> 
 
 <div class="row">
-
+      <h4 class="text-center bg-danger"><?php display_message(); ?></h4>
       <h1>Checkout</h1>
 
 <form action="">
@@ -64,6 +53,8 @@
                 <td>$23</td>
                 <td>3</td>
                 <td>2</td>
+                <td><a href="cart.php?remove=1">Remove</a></td>
+                <td><a href="cart.php?delete=1">Delete</a></td>
               
             </tr>
         </tbody>
