@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8bd3e4f-6866-40dc-bc5d-8ffd8e69353b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/cart.php" afterPath="$PROJECT_DIR$/public/cart.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/checkout.php" afterPath="$PROJECT_DIR$/public/checkout.php" />
     </list>
@@ -28,8 +27,8 @@
       <file leaf-file-name="cart.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/cart.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="102" selection-start-line="9" selection-start-column="102" selection-end-line="9" selection-end-column="102" />
+            <state relative-caret-position="299">
+              <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -38,8 +37,8 @@
       <file leaf-file-name="checkout.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/checkout.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-285">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            <state relative-caret-position="315">
+              <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -48,8 +47,8 @@
       <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="210">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,8 +88,8 @@
         <option value="$PROJECT_DIR$/resources/functions.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/resources/config.php" />
-        <option value="$PROJECT_DIR$/public/cart.php" />
         <option value="$PROJECT_DIR$/public/checkout.php" />
+        <option value="$PROJECT_DIR$/public/cart.php" />
       </list>
     </option>
   </component>
@@ -100,8 +99,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="750" />
-    <option name="y" value="386" />
+    <option name="x" value="773" />
+    <option name="y" value="53" />
     <option name="width" value="1440" />
     <option name="height" value="756" />
   </component>
@@ -253,15 +252,15 @@
       <workItem from="1485819919413" duration="3252000" />
       <workItem from="1486068902825" duration="9746000" />
       <workItem from="1486498451919" duration="7010000" />
-      <workItem from="1487008907575" duration="2554000" />
+      <workItem from="1487008907575" duration="3394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31948000" />
+    <option name="totallyTimeSpent" value="32788000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="750" y="386" width="1440" height="756" extended-state="1" />
+    <frame x="773" y="53" width="1440" height="756" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -568,26 +567,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/checkout.php">
+    <entry file="file://$PROJECT_DIR$/resources/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        <state relative-caret-position="210">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/config.php">
+    <entry file="file://$PROJECT_DIR$/public/checkout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/cart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="102" selection-start-line="9" selection-start-column="102" selection-end-line="9" selection-end-column="102" />
+        <state relative-caret-position="299">
+          <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
           <folding />
         </state>
       </provider>
