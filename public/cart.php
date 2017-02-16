@@ -51,9 +51,14 @@
     }
 
     function cart(){
-        $query = query("SELECT * FROM products");
-        confirm($query);
-        while($row = fetch_array($query)){
+
+
+        foreach ($_SESSION as $name => $value){
+
+            if((substr($name,0,8)) == "product_"){
+$query = query("SELECT * FROM products");
+confirm($query);
+while($row = fetch_array($query)){
 $product = <<<DELIMETER
 
 
@@ -73,7 +78,25 @@ DELIMETER;
 
     echo $product;
 
-        }
+       }
+
+
+            }
+
+
+
+
+
+       }
+
+
+
+
+
+
+
+
+
     }
 
 
