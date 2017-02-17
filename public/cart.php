@@ -35,6 +35,9 @@
         $_SESSION['product_' . $_GET['remove']]--;
 
         if($_SESSION['product_' . $_GET['remove']] < 1){
+
+            unset($_SESSION['item_total']);
+            unset($_SESSION['item_quantity']);
             redirect("checkout.php");
         }
         else{
@@ -48,12 +51,15 @@
 
 
         $_SESSION['product_' . $_GET['delete']] = '0';
+        unset($_SESSION['item_total']);
+        unset($_SESSION['item_quantity']);
         redirect("checkout.php");
     }
 
     function cart(){
 
         $total = 0;
+        $item_quantity = 0;
 
         foreach ($_SESSION as $name => $value){
 
@@ -69,6 +75,7 @@
                 while($row = fetch_array($query)){
 
                     $sub_total = $row['product_price'] * $value;
+                    $item_quantity += $value;
 
 $product = <<<DELIMETER
 
@@ -93,6 +100,8 @@ DELIMETER;
 
     //$total = $total +  $sub_total;
     $_SESSION['item_total'] = $total +=  $sub_total;
+    $_SESSION['item_quantity'] = $item_quantity;
+
             }
 
        }
