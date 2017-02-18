@@ -155,7 +155,8 @@ function get_product_in_shop_page(){
                     <h4>{$row['product_title']}</h4>
                     <p>{$row['short_desc']}</p>
                     <p>
-                        <a href="#" class="btn btn-primary">Buy Now!</a> <a href="item.php?id={$row['product_id']}" class="btn btn-default">More Info</a>
+                       <a href="item.php?id={$row['product_id']}" class="btn btn-default">More Info</a>
+
                     </p>
                 </div>
             </div>
