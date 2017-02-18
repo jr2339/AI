@@ -28,7 +28,10 @@
       <h4 class="text-center bg-danger"><?php display_message(); ?></h4>
       <h1>Checkout</h1>
 
-<form action="">
+    <form action="http://localhost/UI/public/delivery.php" method="post">
+      <input type="hidden" name="cmd" value="_cart">
+      <input type="hidden" name="business" value="jr2339-facilitator@nau.edu">
+
     <table class="table table-striped">
         <thead>
           <tr>
@@ -43,6 +46,9 @@
             <?php cart();?>
         </tbody>
     </table>
+      <input type="image" name="submit"
+        src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif"
+        alt="PayPal - The safer, easier way to pay online">
 </form>
 
 

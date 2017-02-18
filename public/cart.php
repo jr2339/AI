@@ -60,6 +60,8 @@
 
         $total = 0;
         $item_quantity = 0;
+        $item_name=1;
+
 
         foreach ($_SESSION as $name => $value){
 
@@ -92,9 +94,11 @@ $product = <<<DELIMETER
                     </td>
                 </tr>
 
+
 DELIMETER;
 
     echo $product;
+
 
                 }
 
@@ -107,7 +111,6 @@ DELIMETER;
        }
 
 }
-
 
 
 
